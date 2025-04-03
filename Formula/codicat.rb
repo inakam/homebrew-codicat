@@ -5,30 +5,30 @@
 class Codicat < Formula
   desc "Display directory tree and file contents from git repositories for llm"
   homepage "https://github.com/inakam/codicat"
-  url "https://github.com/inakam/codicat/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "1ee6f27abc23a2c285904a655a3aef7f65f0b59f85fd517548b49aabfad1145e"
+  url "https://github.com/inakam/codicat/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "bb5d43ac3a6cd15e6bd0b4a79996e3c2267f2231d634d37b323a3bb1765cb735"
 
   on_macos do
     on_intel do
-      url "https://github.com/inakam/codicat/releases/download/v0.1.0/codicat-0.1.0-darwin-amd64.tar.gz"
-      sha256 "afa470e52e9a5069fef485c1c2df82f2cc27702a2a139ce0fe1bc91396889603"
+      url "https://github.com/inakam/codicat/releases/download/v0.1.3/codicat-0.1.3-darwin-amd64.tar.gz"
+      sha256 "5228bae7f6f03a553e839037ec0462e0d92473b0908d7a1b6e820d8e1b3ea31a"
     end
 
     on_arm do
-      url "https://github.com/inakam/codicat/releases/download/v0.1.0/codicat-0.1.0-darwin-arm64.tar.gz"
-      sha256 "79716e9ec33c3096b0958d1aa416e296bf01a7bb36fd3962dbd3181b3aeb19c8"
+      url "https://github.com/inakam/codicat/releases/download/v0.1.3/codicat-0.1.3-darwin-arm64.tar.gz"
+      sha256 "ccdf88efcde305492aac2fc535c3686726391676667db6967de0725857745672"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/inakam/codicat/releases/download/v0.1.0/codicat-0.1.0-linux-amd64.tar.gz"
-      sha256 "c7dddb719bd98269f1abd4c8debf3caec8c84cc3baeea73f16ddad4f2a67b1f7"
+      url "https://github.com/inakam/codicat/releases/download/v0.1.3/codicat-0.1.3-linux-amd64.tar.gz"
+      sha256 "24ad7b9bc6fe98367504367a734c4c68fe62990e59aca3ff8c7f9089ca9c9613"
     end
 
     on_arm do
-      url "https://github.com/inakam/codicat/releases/download/v0.1.0/codicat-0.1.0-linux-arm64.tar.gz"
-      sha256 "33be87080c21ea42a7d86c89b93714a1e094eb037dcfb33a49e893c9e620bbbe"
+      url "https://github.com/inakam/codicat/releases/download/v0.1.3/codicat-0.1.3-linux-arm64.tar.gz"
+      sha256 "d75049203b9f8401bbc1d08340fe574d1ddcbdb3697c28cfd79624d06b093cdf"
     end
   end
 
